@@ -1,12 +1,13 @@
 {
+   "manifest_version": 2,
    "content_scripts": [{
-      "js": ["columns.js", "http://code.jquery.com/jquery-1.7.1.min.js"],
+      "css": ["columns.css"],
       "matches": ["http://twitter.com/*", "https://twitter.com/*"]
    }],
-   "description": "Invert the columns of the NewLook of Twitter, as it was in the old one. Script by Baptiste \"ashka\" Huve (@shellgratuit).",
+   "description": "Invert the columns of the NewLook of Twitter, as it was in the old one. Original idea and first implementation by Baptiste \"ashka\" Huve (@shellgratuit).",
    "icons": {
       "128": "icon.png"
    },
    "name": "InverseLook for Twitter",
-   "version": "1.1"
+   "version": "1.2"
 }
